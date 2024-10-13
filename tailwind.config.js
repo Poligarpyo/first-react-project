@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+import { background } from "./src/assets";
 
 export default {
   content: [
@@ -36,6 +37,10 @@ export default {
           11: "#1B1B2E",
           12: "#2E2A41",
           13: "#6C7275",
+        },
+        backgroundcolor: {
+          1: "#FFFFFF",
+          2: "#CAC6DD",
         },
       },
       fontFamily: {
