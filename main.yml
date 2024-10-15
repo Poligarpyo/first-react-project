@@ -22,7 +22,7 @@ jobs:
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp://taytaypalawan.net
+          server: "ftp://taytaypalawan.net"
           username: u523577370
           password: micto.software.camposano#25
           local-dir: dist/
