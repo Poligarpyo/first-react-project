@@ -1,0 +1,10 @@
+{
+  "name": "https://ai.taytaypalawan.net/",
+  "host": "ftp://taytaypalawan.net",
+  "protocol": "ftp",
+  "port": 21,
+  "username": "u523577370",
+  "password": "micto.software.camposano#25",
+  "remotePath": "/public_html/ai",
+  "uploadOnSave": true
+}
