@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         #
       - name: 📂 Sync files
-        uses: https://github.com/SamKirkland/FTP-Deploy-Action.git
+        uses: SamKirkland/FTP-Deploy-Action
         with:
           server: taytaypalawan.net
           username: u523577370
