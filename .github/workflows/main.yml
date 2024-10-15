@@ -19,7 +19,7 @@ jobs:
       - name: Build project
         run: npm run build
         #
-      - name: Deploy to FTP server
+      - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: taytaypalawan.net
