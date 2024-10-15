@@ -23,6 +23,6 @@ jobs:
         with:
           server: ftp.taytaypalawan.net
           username: u523577370
-          password: micto.software.camposano#25
+          password: Y5a|nqAhM065AhU]
           local-dir: dist/
           server-dir: /public_html/ai-test/
