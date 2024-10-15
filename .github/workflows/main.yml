@@ -21,8 +21,8 @@ jobs:
       - name: Deploy to FTP/SFTP server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.taytaypalawan.net
-          username: u523577370
-          password: Y5a|nqAhM065AhU]
-          local-dir: dist/
-          server-dir: /public_html/ai-test/
+          server: ${{ secrets.SFTP_SERVER }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local-dir: ${{ secrets.SFTP_LOCAL_DIR }}
+          server-dir: ${{ secrets.SFTP_SERVER_DIR }}
