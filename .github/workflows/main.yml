@@ -22,10 +22,9 @@ jobs:
       - name: Deploy to FTP/SFTP server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp://taytaypalawan.net
+          server: ftp://153.92.8.184
           username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: 21
+          password: ${{ secrets.SFTP_PASSWORD }} 
           local-dir: dist/
           server-dir: /public_html/ai-test/
   
