@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         #
       - name: Deploy to SFTP server
-        uses: lyzidiamond/sftp-deploy-action@v1.0.1
+        uses: easydigitaldownloads/ftp-deploy@v1.0.0
         with:
           server: taytaypalawan.net
           username: u523577370
