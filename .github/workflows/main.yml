@@ -22,7 +22,7 @@ jobs:
         with:
           server: taytaypalawan.net
           username: ${{ secrets.SFTP_USERNAME }}
-          password: "123"
+          password: ${{ secrets.SFTP_PASSWORD }}
           port: 21  # Explicitly setting the FTP port
           protocol: ftp  # Ensuring FTP is used (not SFTP)
           local-dir: dist/
