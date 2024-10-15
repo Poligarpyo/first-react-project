@@ -15,16 +15,14 @@ jobs:
           node-version: "16"
       - name: Install dependencies
         run: npm install
-        # Check the directory structure to ensure build/ exists
       - name: Build project
         run: npm run build
         #
-      - name: Sync File
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Deploy to FTP/SFTP server
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ftp.taytaypalawan.net
           username: u523577370
-          password: Y5a|nqAhM065AhU]
-          port: 21
+          password: micto.software.camposano#25
           local-dir: dist/
           server-dir: /public_html/ai-test/
