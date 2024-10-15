@@ -27,5 +27,4 @@ jobs:
           password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: dist/
           server-dir: /public_html/ai-test/
-          protocol: sftp
   
