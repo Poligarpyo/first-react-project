@@ -20,10 +20,10 @@ jobs:
         run: npm run build
         #
       - name: Deploy to FTP/SFTP server
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0 
+        uses: lyzidiamond/sftp-deploy-action@v1.0.1
         with:
           server: taytaypalawan.net
-          username: u523577370
-          password: micto.software.camposano#25
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: dist/
           server-dir: /public_html/ai-test/
