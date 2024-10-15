@@ -19,8 +19,8 @@ jobs:
       - name: Build project
         run: npm run build
         #
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action
+      - name: Deploy to SFTP server
+        uses: lyzidiamond/sftp-deploy-action@v1.0.1
         with:
           server: taytaypalawan.net
           username: u523577370
