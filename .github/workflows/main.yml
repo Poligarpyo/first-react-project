@@ -15,12 +15,14 @@ jobs:
           node-version: "16"
       - name: Install dependencies
         run: npm install
+        # Check the directory structure to ensure build/ exists
       - name: Build project
         run: npm run build
+        #
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: "ftp://taytaypalawan.net"
+          server: taytaypalawan.net
           username: u523577370
           password: micto.software.camposano#25
           local-dir: dist/
