@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         #
       - name: Deploy to FTP/SFTP server
-        uses: lyzidiamond/sftp-deploy-action@v1.0.1
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: taytaypalawan.net
           username: ${{ secrets.SFTP_USERNAME }}
