@@ -19,8 +19,8 @@ jobs:
       - name: Build project
         run: npm run build
         #
-      - name: Deploy to SFTP server
-        uses: easydigitaldownloads/ftp-deploy@v1.0.0
+      - name: Deploy to FTP/SFTP server
+        uses: appleboy/scp-action
         with:
           server: taytaypalawan.net
           username: u523577370
