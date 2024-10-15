@@ -20,7 +20,7 @@ jobs:
         run: npm run build
         #
       - name: Deploy to FTP/SFTP server
-        uses: SamKirkland/FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0 
         with:
           server: taytaypalawan.net
           username: u523577370
