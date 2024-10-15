@@ -28,7 +28,7 @@ const Hero = () => {
         {/* Text Section */}
         <div className="relative z-10 max-w-[62rem] mx-auto text-center mb-16 md:mb-20 lg:mb-24">
           <h1 className="h1 mb-6">
-            Fuck Explores the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
+            This is what i want Popoy Policarpyo
             <span className="inline-block relative">
               BrainWave
               <img
